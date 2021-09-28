@@ -29,9 +29,14 @@ curl -o ../.config/nvim/plugin/tabSpace-config.vim --create-dirs https://raw.git
 curl -o ../.config/nvim/plugin/treesitter.lua --create-dirs https://raw.githubusercontent.com/roufsyed/Vim/master/plugin/treesitter.lua 
 curl -o ../.config/nvim/coc-settings.json --create-dirs https://raw.githubusercontent.com/roufsyed/Vim/master/coc-settings.json
 curl -o ../.config/nvim/colors/gruvbox.vim --create-dirs https://raw.githubusercontent.com/morhetz/gruvbox/master/colors/gruvbox.vim
-curl -o ../.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/gruvbox --create-dirs https://raw.githubusercontent.com/morhetz/gruvbox/master/autoload/lightline/colorscheme/gruvbox.vim
 nvim -c PlugInstall
 
 echo "Run this inside nvim to install coc-plugins, 
 
 :nvim -c CocInstall coc-html-css-support coc-css coc-java coc-java-lombok coc-java-intellicode coc-tailwindcss coc-eslint coc-prettier coc-marketplace coc-emmet coc-xml coc-tsserver coc-json coc-pyright coc-react-refactor coc-phpls coc-markdownlint"
+
+echo ""
+
+echo "Run this in terminal to get lighline theme,
+curl -o ../.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/gruvbox --create-dirs https://raw.githubusercontent.com/morhetz/gruvbox/master/autoload/lightline/colorscheme/gruvbox.vim
+"
