@@ -7,4 +7,4 @@ Menu driven shell scripts for debian based OS to update, upgrade, clean, install
 
 [nvim configs are downloaded from my other repo...]("https://www.github.com/roufsyed/Vim")
 
-![scriptOutputImage](https://drive.google.com/file/d/100g2hJXgTgfYdOPYjp27xcgkg4csyz88/view?usp=sharing)
+![scriptsOutputImage](https://user-images.githubusercontent.com/51513765/135105619-08e99158-0417-447f-805f-21e583b316df.png)
