@@ -16,4 +16,5 @@ case $num in
 5)bash fillSlate.sh;;
 6)bash nvimInstall.sh;;
 7)bash nvimRemove.sh;;
+*)echo "Not a valid input."
 esac
