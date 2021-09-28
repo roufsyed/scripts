@@ -11,7 +11,7 @@ sudo apt install git -y
 sudo apt install nodejs -y
 sudo apt install npm -y
 sudo apt-get install fuse libfuse2 git python3-pip ack-grep -y
-curl -sL install-node.now.sh/lts | bash 
+# curl -sL install-node.now.sh/lts | bash 
 
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -33,10 +33,10 @@ nvim -c PlugInstall
 
 echo "Run this inside nvim to install coc-plugins, 
 
-:nvim -c CocInstall coc-html-css-support coc-css coc-java coc-java-lombok coc-java-intellicode coc-tailwindcss coc-eslint coc-prettier coc-marketplace coc-emmet coc-xml coc-tsserver coc-json coc-pyright coc-react-refactor coc-phpls coc-markdownlint"
+:CocInstall coc-html-css-support coc-css coc-java coc-java-lombok coc-java-intellicode coc-tailwindcss coc-eslint coc-prettier coc-marketplace coc-emmet coc-xml coc-tsserver coc-json coc-pyright coc-react-refactor coc-phpls coc-markdownlint"
 
 echo ""
 
 echo "Run this in terminal to get lighline theme,
-curl -o ../.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/gruvbox --create-dirs https://raw.githubusercontent.com/morhetz/gruvbox/master/autoload/lightline/colorscheme/gruvbox.vim
+curl -o ../.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/gruvbox.vim --create-dirs https://raw.githubusercontent.com/morhetz/gruvbox/master/autoload/lightline/colorscheme/gruvbox.vim
 "
