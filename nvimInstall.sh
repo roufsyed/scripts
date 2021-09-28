@@ -4,12 +4,14 @@ echo '*                Rouf nvimInstall Script                  *'
 echo '*                  afrid704@gmail.com                     *'
 echo '***********************************************************'
 echo ''
-sudo snap install nvim --classic
-sudo apt install xclip
-sudo apt install curl
-sudo apt install git
+sudo snap install nvim --classic -y
+sudo apt install xclip -y
+sudo apt install curl -y
+sudo apt install git -y
+sudo apt install nodejs -y
+sudo apt install npm -y
 sudo apt-get install fuse libfuse2 git python3-pip ack-grep -y
-curl -sL install-node.now.sh/lts | bash
+curl -sL install-node.now.sh/lts | bash -y
 
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 # curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
