@@ -5,10 +5,10 @@ echo '*                  afrid704@gmail.com                     *'
 echo '***********************************************************'
 echo ''
 
+sudo apt-get clean
+sudo apt-get autoclean
 sudo apt-get autoremove
 sudo du -sh /var/cache/apt
-sudo apt-get autoclean
-sudo apt-get autoclean
 
 echo -e "---------------------------------------------------------"
 
