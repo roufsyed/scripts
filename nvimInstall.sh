@@ -14,7 +14,7 @@ sudo apt-get install fuse libfuse2 git python3-pip ack-grep -y
 curl -sL install-node.now.sh/lts | bash 
 
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-# curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 curl -o ../.config/nvim/init.vim --create-dirs https://raw.githubusercontent.com/roufsyed/Vim/master/nvim/init.vim
 curl -o ../.config/nvim/plugin/aesthetics-config.vim --create-dirs https://raw.githubusercontent.com/roufsyed/Vim/master/plugin/aesthetics-config.vim
