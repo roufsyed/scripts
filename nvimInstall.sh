@@ -4,7 +4,7 @@ echo '*                Rouf nvimInstall Script                  *'
 echo '*                  afrid704@gmail.com                     *'
 echo '***********************************************************'
 echo ''
-sudo snap install nvim --classic -y
+sudo snap install nvim --classic 
 sudo apt install xclip -y
 sudo apt install curl -y
 sudo apt install git -y
@@ -28,7 +28,8 @@ curl -o .config/nvim/plugin/tabAll-config.vim --create-dirs https://raw.githubus
 curl -o .config/nvim/plugin/tabSpace-config.vim --create-dirs https://raw.githubusercontent.com/roufsyed/Vim/master/plugin/tabSpace-config.vim
 curl -o .config/nvim/plugin/treesitter.lua --create-dirs https://raw.githubusercontent.com/roufsyed/Vim/master/plugin/treesitter.lua 
 curl -o .config/nvim/coc-settings.json --create-dirs https://raw.githubusercontent.com/roufsyed/Vim/master/coc-settings.json
-
+curl -o .config/nvim/colors/gruvbox.vim --create-dirs https://raw.githubusercontent.com/morhetz/gruvbox/master/colors/gruvbox.vim
 nvim -c PlugInstall
 
-echo "Run Inside nvim, :CocInstall coc-html-css-support coc-css coc-java coc-java-lombok coc-java-intellicode coc-tailwindcss coc-eslint coc-prettier coc-marketplace coc-emmet coc-xml coc-tsserver coc-json coc-pyright coc-react-refactor coc-phpls coc-markdownlint"
+echo "Run this for plugins, 
+nvim -c CocInstall coc-html-css-support coc-css coc-java coc-java-lombok coc-java-intellicode coc-tailwindcss coc-eslint coc-prettier coc-marketplace coc-emmet coc-xml coc-tsserver coc-json coc-pyright coc-react-refactor coc-phpls coc-markdownlint"
