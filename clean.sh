@@ -19,5 +19,3 @@ echo -e "---------------------------------------------------------"
 
 du -sh ~/.cache/thumbnails
 rm -rf ~/.cache/thumbnails/*
-
-
