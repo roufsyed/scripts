@@ -14,7 +14,7 @@ Menu driven shell scripts for debian based OS to:
 ```shell
 bash menu.sh
 ```
-
+***
 [nvim configs are downloaded from my other repo.](https://www.github.com/roufsyed/Vim "roufsyed/Vim")
 
 [nvim theme:gruvbox](https://www.github.com/morhetz/gruvbox "morhetz/gruvbox")
