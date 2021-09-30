@@ -4,7 +4,7 @@ echo '*                Rouf nvimremove Script                   *'
 echo '*                  afrid704@gmail.com                     *'
 echo '***********************************************************'
 echo ''
-sudo snap remove --purge nvim --classic -y
+sudo snap remove --purge nvim 
 # sudo apt remove --purge xclip -y
 # sudo apt remove --purge curl -y
 # sudo apt remove --purge git -y
