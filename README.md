@@ -16,6 +16,7 @@ bash menu.sh
 ```
 
 [nvim configs are downloaded from my other repo.](https://www.github.com/roufsyed/Vim "roufsyed/Vim")
+
 [nvim theme:gruvbox](https://www.github.com/morhetz/gruvbox "morhetz/gruvbox")
 
 ![scriptsOutputImage](https://user-images.githubusercontent.com/51513765/135105619-08e99158-0417-447f-805f-21e583b316df.png)
