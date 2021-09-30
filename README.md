@@ -4,7 +4,7 @@ Menu driven shell scripts for debian based OS to:
 2. Clean old apt packages and snap packages.
 3. Install and configure nvim with all the essentials.
 4. Remove nvim completely.
-5. Install all the required softwares on a newly installed OS aka fillSlate.
+5. Install all the required softwares on a newly installed OS aka Fill Stale Protocol.
 
 **The idea behind writing these scripts is to save time and all the hassle of finding the right commands/package names and nvim configuration on the internet.**
 
