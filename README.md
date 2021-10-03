@@ -1,10 +1,11 @@
 # scripts
 Menu driven shell scripts for debian based OS to:
-1. Update and upgrade os.
-2. Clean old apt packages and snap packages.
-3. Install and configure nvim with all the essentials.
+1. Update and upgrade OS.
+2. Clean old apt and snap packages.
+3. Install and configure nvim with all the essentials (plugins and theme).
 4. Remove nvim completely.
 5. Install all the required softwares on a newly installed OS aka Fill Slate Protocol.
+6. Desktop aesthetics like Mac OS.
 
 **The idea behind writing these scripts is to save time and all the hassle of finding the right commands/package names and nvim configuration on the internet.**
 
