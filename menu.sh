@@ -4,7 +4,8 @@ echo "1. Update
 4. Update and clean
 5. Fill Slate Protocol
 6. Install nvim
-7. remove nvim"
+7. Remove nvim
+8. Setup desktop aesthetics"
 echo ""
 echo "Enter a number"
 read num
@@ -16,5 +17,6 @@ case $num in
 5)bash fillSlate.sh;;
 6)bash nvimInstall.sh;;
 7)bash nvimRemove.sh;;
+8)bash aesthetics.sh;;
 *)echo "Not a valid input."
 esac
