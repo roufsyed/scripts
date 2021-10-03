@@ -2,7 +2,7 @@ gsettings set org.gnome.shell.extensions.dash-to-dock background-color '#ffffff'
 gsettings set org.gnome.shell.extensions.dash-to-dock autohide true
 gsettings set org.gnome.shell.extensions.dash-to-dock apply-glossy-effect true
 gsettings set org.gnome.shell.extensions.dash-to-dock animation-time 0.2
-# gsettings set org.gnome.shell.extensions.dash-to-dock transparency-mode Fixed
+gsettings set org.gnome.shell.extensions.dash-to-dock transparency-mode 'FIXED'
 gsettings set org.gnome.shell.extensions.dash-to-dock apply-custom-theme false
 
 #Alphas
