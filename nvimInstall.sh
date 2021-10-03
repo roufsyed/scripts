@@ -6,6 +6,7 @@ echo '***********************************************************'
 echo ''
 sudo snap install nvim --classic 
 sudo apt install xclip -y
+sudo apt install ripgrep -y
 sudo apt install curl -y
 sudo apt install git -y
 sudo apt install nodejs -y
