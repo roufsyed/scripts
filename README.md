@@ -11,12 +11,14 @@ Menu driven shell scripts for debian based OS to:
 
 ## How to use?
 1. Manually: Download and extract the repo
+   OR
    Via terminal:
    ```shell 
    git clone https://github.com/roufsyed/scripts.git
    ```
 2. Run menu script using command,
    ```shell
+   cd scripts
    bash menu.sh
    ```
 ***
