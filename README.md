@@ -16,9 +16,9 @@ Menu driven shell scripts for debian based OS to:
    git clone https://github.com/roufsyed/scripts.git
    ```
 2. Run menu script using command,
-```shell
-bash menu.sh
-```
+   ```shell
+   bash menu.sh
+   ```
 ***
 [nvim configs are downloaded from my other repo.](https://www.github.com/roufsyed/Vim "roufsyed/Vim")
 
