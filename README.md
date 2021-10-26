@@ -10,7 +10,11 @@ Menu driven shell scripts for debian based OS to:
 **The idea behind writing these scripts is to save time and all the hassle of finding the right commands/package names and nvim configuration on the internet.**
 
 ## How to use?
-1. Download and extract the repo to your home directory.
+1. Manually: Download and extract the repo
+   Via terminal:
+   ```shell 
+   git clone https://github.com/roufsyed/scripts.git
+   ```
 2. Run menu script using command,
 ```shell
 bash menu.sh
