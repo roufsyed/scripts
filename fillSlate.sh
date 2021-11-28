@@ -9,7 +9,7 @@ sudo snap install bpytop
 sudo snap install code --classic
 sudo apt install curl
 sudo snap install kotlin --classic
-sudo snap install nvim --classic
+sudo nvimInstall.sh
 sudo snap install qbittorrent-arnatious
 sudo snap install signal-desktop
 sudo snap install vlc
