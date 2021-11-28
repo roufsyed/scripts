@@ -4,6 +4,8 @@ echo '*                 Rouf fillSlate Script                   *'
 echo '*                  afrid704@gmail.com                     *'
 echo '***********************************************************'
 echo ''
+sudo apt install zsh
+chsh -s $(which zsh)
 sudo snap install android-studio --classic
 sudo snap install bpytop
 sudo snap install code --classic
