@@ -4,12 +4,13 @@ echo '*                 Rouf fillSlate Script                   *'
 echo '*                  afrid704@gmail.com                     *'
 echo '***********************************************************'
 echo ''
+sudo apt install curl
 sudo apt install zsh
 chsh -s $(which zsh)
+sudo apt install nnn
 sudo snap install android-studio --classic
 sudo snap install bpytop
 sudo snap install code --classic
-sudo apt install curl
 sudo snap install kotlin --classic
 sudo bash nvimInstall.sh
 sudo snap install qbittorrent-arnatious
