@@ -5,19 +5,15 @@ echo '*                  afrid704@gmail.com                     *'
 echo '***********************************************************'
 echo ''
 
-sudo apt install git -y
-git config --global user.name "roufsyed"
-git config --global user.email afrid704@gmail.com
-git config --global core.editor nvim
-
+sudo bash gitInstall.sh
 sudo apt install curl -y
 sudo apt install ripgrep -y
 sudo apt install fzf -y
+sudo bash nvimInstall.sh
 sudo apt install nnn -y
 sudo snap install android-studio --classic
 sudo snap install bpytop
 sudo snap install kotlin --classic
-sudo bash nvimInstall.sh
 sudo snap install qbittorrent-arnatious
 sudo snap install signal-desktop
 sudo snap install vlc
