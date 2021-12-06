@@ -7,7 +7,7 @@ echo ''
 
 sudo bash gitInstall.sh
 
-echo "Did you add your ssh public key to your github account? [y/N]"
+echo "Did you restore ssh key? [y/N]"
 
 read input
 if [[ $input == "Y" || $input == "y" ]]; then

@@ -7,8 +7,7 @@ git config --global diff.tool nvimdiff
 git config --global difftool.prompt false
 git config --global difftool.cmd "nvim -d \"$LOCAL\" \"$REMOTE\""
 git config --global merge.tool "nvim -d"
-cd
-ssh-keygen -t rsa -b 4096 -C "afrid704@gmail.com"
+# ssh-keygen -t rsa -b 4096 -C "afrid704@gmail.com"
 echo "---------------------------------------------"
-echo "PLEASE ADD PUBLIC KEY TO YOUR GITHUB ACCOUNT"
+echo "PLEASE RESTORE BACKUP OF YOUR SSH"
 echo "---------------------------------------------"
