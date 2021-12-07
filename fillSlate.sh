@@ -30,10 +30,13 @@ sudo apt install gnome-shell-extensions -y
 sudo apt install apt-transport-https curl
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
 echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+sudo add-apt-repository ppa:micahflee/ppa
 sudo apt update
 sudo apt install brave-browser
-
-sudo add-apt-repository ppa:micahflee/ppa
 sudo apt install torbrowser-launcher -y
+echo "-------------------------------------------------------------------------"
+echo "ALL DONE!"
+echo "-------------------------------------------------------------------------"
 
-echo "Please Update environment variable for jdk in '/etc/environment' Eg. Java_home='/usr/lib/jvm/java-11-openjdk-amd64/' "
+sudo update-alternatives --config java
+echo "Please Update environment variable for jdk in '/etc/environment' Eg. JAVA_HOME='/usr/lib/jvm/java-11-openjdk-amd64/' "
