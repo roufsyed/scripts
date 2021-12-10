@@ -23,6 +23,7 @@ sudo apt install curl -y
 sudo apt install nodejs -y
 sudo apt install npm -y
 sudo apt-get install fuse libfuse2 python3-pip ack-grep -y
+sudo npm install -g browser-sync
 
 
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
