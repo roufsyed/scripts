@@ -5,7 +5,9 @@ echo '*                  afrid704@gmail.com                     *'
 echo '***********************************************************'
 echo ''
 
-sudo bash gitInstall.sh
+sudo apt install git -y
+sudo apt install net-tools -y
+# TODO: Write fetch for dotfiles and installation to create simlink
 sudo apt install curl -y
 sudo apt install ripgrep -y
 sudo apt install fzf -y
