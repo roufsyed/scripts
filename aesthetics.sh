@@ -1,6 +1,7 @@
 # Dock Configuraions 
 gsettings set org.gnome.shell.extensions.dash-to-dock background-color '#ffffff'
 gsettings set org.gnome.shell.extensions.dash-to-dock autohide true
+gsettings set org.gnome.shell.extensions.dash-to-dock multi-monitor true
 gsettings set org.gnome.shell.extensions.dash-to-dock apply-glossy-effect true
 gsettings set org.gnome.shell.extensions.dash-to-dock animation-time 0.2
 gsettings set org.gnome.shell.extensions.dash-to-dock transparency-mode 'FIXED'
@@ -30,6 +31,9 @@ gsettings set org.gnome.shell.extensions.dash-to-dock custom-theme-running-dots-
 gsettings set org.gnome.shell.extensions.dash-to-dock custom-theme-running-dots-border-width 0
 gsettings set org.gnome.shell.extensions.dash-to-dock custom-theme-running-dots-color '#ffffff'
 
+# Making new window centre
+gsettings set org.gnome.mutter center-new-windows true
+
 # Terminal settings
 gsettings set org.gnome.Terminal.Legacy.Settings tab-position bottom
 gsettings set org.gnome.Terminal.Legacy.Settings theme-variant dark
@@ -54,7 +58,7 @@ gsettings set $SCHEMA_PATH preferences '<ctrl><Shift>p'
 sudo bash nerdFontInstall.sh
 
 # Desktop background 
-git clone https://github.com/roufsyed/wallpapers.git
+git clone https://github.com/roufsyed/wallpapers.git ~/Pictures/
 gsettings set org.gnome.desktop.background picture-uri 'file:///home/rouf/Pictures/wallpapers/mac-os-catalina-morning.jpg'
 gsettings set org.gnome.desktop.background picture-options 'zoom'
 
