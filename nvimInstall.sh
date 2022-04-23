@@ -22,6 +22,9 @@ sudo apt install ripgrep -y
 sudo apt install curl -y
 sudo apt install nodejs -y
 sudo apt install npm -y
+npm cache clean -f
+npm install -g n
+sudo n stable
 sudo apt-get install fuse libfuse2 python3-pip ack-grep -y
 sudo npm install -g browser-sync
 
