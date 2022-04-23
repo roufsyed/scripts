@@ -11,7 +11,7 @@ echo "Did you restore ssh key? [y/N]"
 
 read input
 if [[ $input == "Y" || $input == "y" ]]; then
-    git clone git@github.com:roufsyed/nvim.git ~/.config/nvim/
+    git clone https://github.com/roufsyed/nvim.git ~/.config/nvim/
 else
     echo "GIT CLONE SKIPPED"
 fi
