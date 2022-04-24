@@ -5,13 +5,12 @@ echo '*                  afrid704@gmail.com                     *'
 echo '***********************************************************'
 echo ''
 
+# Software packages
 sudo apt install git -y
 sudo apt install net-tools -y
-# TODO: Write fetch for dotfiles and installation to create simlink
 sudo apt install curl -y
 sudo apt install ripgrep -y
 sudo apt install fzf -y
-sudo bash nvimInstall.sh
 sudo apt install nnn -y
 sudo snap install android-studio --classic
 sudo snap install bpytop
@@ -43,3 +42,9 @@ echo "-------------------------------------------------------------------------"
 
 sudo update-alternatives --config java
 echo "Please Update environment variable for jdk in '/etc/environment' Eg. JAVA_HOME='/usr/lib/jvm/java-11-openjdk-amd64/' "
+
+# Nvim installation script
+sudo bash ~scripts/nvimInstall.sh
+
+# Dot files 
+sudo bash ~scripts/dotFilesInstall.sh
