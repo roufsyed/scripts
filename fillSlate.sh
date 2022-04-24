@@ -35,6 +35,7 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=
 sudo add-apt-repository ppa:micahflee/ppa
 sudo apt update
 sudo apt install brave-browser
+
 sudo apt install torbrowser-launcher -y
 echo "-------------------------------------------------------------------------"
 echo "ALL DONE!"
