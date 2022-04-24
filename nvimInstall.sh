@@ -6,17 +6,8 @@ echo '***********************************************************'
 echo ''
 
 sudo bash gitInstall.sh
+git clone https://github.com/roufsyed/nvim.git ~/.config/nvim/
 
-echo "Did you restore ssh key? [y/N]"
-
-read input
-if [[ $input == "Y" || $input == "y" ]]; then
-    git clone https://github.com/roufsyed/nvim.git ~/.config/nvim/
-else
-    echo "GIT CLONE SKIPPED"
-fi
-
-sudo snap install nvim --classic 
 sudo apt install xclip -y
 sudo apt install ripgrep -y
 sudo apt install curl -y
@@ -27,6 +18,7 @@ npm install -g n
 sudo n stable
 sudo apt-get install fuse libfuse2 python3-pip ack-grep -y
 sudo npm install -g browser-sync
+sudo snap install nvim --classic 
 
 
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
