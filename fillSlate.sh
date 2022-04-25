@@ -17,12 +17,16 @@ sudo apt install syanptic -y
 sudo apt install default-jre -y
 sudo apt install default-jdk -y
 curl -sL install-node.now.sh/lts | bash
-sudo apt install dconf -y
-sudo apt install gnome-tweak-tool -y
+sudo apt install dconf-editor -y
+sudo apt install gnome-tweaks -y
 sudo apt install gnome-shell-extensions -y
-
 # Snap packages
-
+sudo snap install android-studio --classic
+sudo snap install bpytop
+sudo snap install kotlin --classic
+sudo snap install qbittorrent-arnatious
+sudo snap install signal-desktop
+sudo snap install vlc
 # From official brave website
 sudo apt install apt-transport-https curl
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
@@ -30,17 +34,13 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=
 sudo add-apt-repository ppa:micahflee/ppa
 sudo apt update
 sudo apt install brave-browser
-
 sudo apt install torbrowser-launcher -y
 echo "-------------------------------------------------------------------------"
 echo "ALL DONE!"
 echo "-------------------------------------------------------------------------"
-
 sudo update-alternatives --config java
 echo "Please Update environment variable for jdk in '/etc/environment' Eg. JAVA_HOME='/usr/lib/jvm/java-11-openjdk-amd64/' "
-
 # Nvim installation script
 sudo bash ~scripts/nvimInstall.sh
-
 # Dot files 
 sudo bash ~scripts/dotFilesInstall.sh
