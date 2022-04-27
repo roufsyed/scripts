@@ -7,7 +7,6 @@ echo ''
 
 sudo bash gitInstall.sh
 git clone https://github.com/roufsyed/nvim.git ~/.config/nvim/
-
 sudo apt install xclip -y
 sudo apt install ripgrep -y
 sudo apt install curl -y
