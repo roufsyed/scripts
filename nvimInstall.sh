@@ -19,6 +19,7 @@ sudo npm install -g n
 sudo n stable
 sudo apt-get install fuse libfuse2 python3-pip ack-grep -y
 sudo npm install -g browser-sync
+python3 -m pip install --user --upgrade pynvim #optional
 
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
@@ -29,4 +30,3 @@ nvim -e -c ":PlugInstall"
 nvim -c ":CocInstall coc-html-css-support coc-css coc-java coc-java-lombok coc-java-intellicode coc-tailwindcss coc-eslint coc-prettier coc-marketplace coc-emmet coc-xml coc-tsserver coc-json coc-pyright coc-react-refactor coc-phpls coc-markdownlint"
 
 # curl -o ~/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/gruvbox.vim --create-dirs https://raw.githubusercontent.com/morhetz/gruvbox/master/autoload/lightline/colorscheme/gruvbox.vim
-
