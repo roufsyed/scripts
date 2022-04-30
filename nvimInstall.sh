@@ -9,6 +9,7 @@ sudo bash gitInstall.sh
 git clone https://github.com/roufsyed/nvim.git ~/.config/nvim/
 sudo snap install nvim --classic 
 sudo apt install xclip -y
+sudo apt install bat -y
 sudo apt install ripgrep -y
 sudo apt install curl -y
 sudo apt install nodejs -y
@@ -29,4 +30,3 @@ nvim -c ":CocInstall coc-html-css-support coc-css coc-java coc-java-lombok coc-j
 
 # curl -o ~/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/gruvbox.vim --create-dirs https://raw.githubusercontent.com/morhetz/gruvbox/master/autoload/lightline/colorscheme/gruvbox.vim
 
-echo 'Please Install bat for fzf color preview. Due to name conflict between two different versions, apt install bat does not work.'
