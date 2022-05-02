@@ -21,6 +21,7 @@ sudo apt install dconf-editor -y
 sudo apt install gnome-tweaks -y
 sudo apt install gnome-shell-extensions -y
 # Snap packages
+sudo snap install postman
 sudo snap install android-studio --classic
 sudo snap install bpytop
 sudo snap install kotlin --classic
