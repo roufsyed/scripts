@@ -29,6 +29,26 @@ gsettings set org.gnome.shell.extensions.dash-to-dock custom-theme-running-dots-
 gsettings set org.gnome.shell.extensions.dash-to-dock custom-theme-running-dots-color '#ffffff'
 # Making new window centre
 gsettings set org.gnome.mutter center-new-windows true
+# Show battery percentage
+gsettings set org.gnome.desktop.interface show-battery-percentage true
+# theme color
+gsettings set org.gnome.desktop.interface icon-theme "Yaru-blue"
+gsettings set org.gnome.desktop.interface gtk-theme "Yaru-blue"
+# Touchpad
+gsettings set org.gnome.desktop.peripherals.touchpad two-finger-scrolling-enabled true
+# Privacy
+gsettings set org.gnome.desktop.privacy hide-identity true
+gsettings set org.gnome.desktop.privacy old-files-age 30
+gsettings set org.gnome.desktop.privacy remove-old-temp-files true
+gsettings set org.gnome.desktop.privacy send-software-usage-stats false
+gsettings set org.gnome.desktop.privacy remove-old-temp-files true
+gsettings set org.gnome.desktop.privacy remove-old-temp-files true
+# Keyboard shortcuts
+gsettings set org.gnome.desktop.wm.keybindings toggle-fullscreen "['F11']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-corner-ne "['<Alt>Page_Down']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-corner-nw "['<Alt>Page_Up']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-corner-sw "['<Alt>Left']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-corner-se "['<Alt>Right']"
 # Terminal settings
 gsettings set org.gnome.Terminal.Legacy.Settings tab-position bottom
 gsettings set org.gnome.Terminal.Legacy.Settings theme-variant dark
