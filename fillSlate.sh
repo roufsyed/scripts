@@ -7,9 +7,12 @@ echo ''
 
 # Apt packages
 sudo apt install git -y
+sudo apt install tmux -y
 sudo apt install net-tools -y
 sudo apt install curl -y
 sudo apt install ripgrep -y
+sudo apt install ncdu -y
+sudo apt install neofetch -y
 sudo apt install fzf -y
 sudo apt install nnn -y
 sudo apt install git-cola -y
