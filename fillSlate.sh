@@ -13,7 +13,9 @@ sudo apt install curl -y
 sudo apt install ripgrep -y
 sudo apt install ncdu -y
 sudo apt install neofetch -y
-sudo apt install fzf -y
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+bash ~/.fzf/install
+sudo apt-get install fd-find -y
 sudo apt install nnn -y
 sudo apt install git-cola -y
 sudo apt install syanptic -y
