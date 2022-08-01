@@ -16,6 +16,7 @@ sudo apt install nodejs -y
 sudo apt install npm -y
 sudo npm cache clean -f
 sudo npm install -g n
+sudo apt install universal-ctags -y
 sudo n stable
 sudo apt-get install fuse libfuse2 python3-pip ack-grep -y
 sudo npm install -g browser-sync
@@ -27,6 +28,9 @@ curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubuserc
 
 nvim -e -c ":PlugInstall"
 
-nvim -c ":CocInstall coc-html-css-support coc-css coc-java coc-java-lombok coc-java-intellicode coc-tailwindcss coc-eslint coc-prettier coc-marketplace coc-emmet coc-xml coc-tsserver coc-json coc-pyright coc-react-refactor coc-phpls coc-markdownlint"
+nvim -c ":CocInstall coc-html coc-css coc-java coc-java-lombok coc-java-intellicode coc-tailwindcss coc-eslint coc-prettier coc-marketplace coc-emmet coc-xml coc-tsserver coc-json coc-pyright coc-react-refactor coc-phpls coc-markdownlint coc-ccls coc-xml coc-vimlsp coc-lua"
 
+# the below two lines is to build coc-ccls, if not executed the global-extension will not open
+cd ~/.config/coc/extensions/node_modules/coc-ccls
+ln -s node_modules/ws/lib lib
 # curl -o ~/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/gruvbox.vim --create-dirs https://raw.githubusercontent.com/morhetz/gruvbox/master/autoload/lightline/colorscheme/gruvbox.vim

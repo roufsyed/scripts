@@ -13,6 +13,7 @@ sudo apt install curl -y
 sudo apt install ripgrep -y
 sudo apt install ncdu -y
 sudo apt install neofetch -y
+sudo apt install plocate -y
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 bash ~/.fzf/install
 sudo apt-get install fd-find -y
@@ -25,6 +26,11 @@ sudo curl -sL install-node.now.sh/lts | bash
 sudo apt install dconf-editor -y
 sudo apt install gnome-tweaks -y
 sudo apt install gnome-shell-extensions -y
+sudo apt install libreoffice -y
+
+# Due to browser freeze bug in ubuntu wayland and Xorg
+sudo apt install xdg-desktop-portal-gnome
+
 # Snap packages
 sudo snap install postman
 sudo snap install android-studio --classic

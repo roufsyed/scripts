@@ -79,3 +79,8 @@ gsettings set org.gnome.desktop.background picture-options 'zoom'
 
 #enabled-extensions
 # ['ubuntu-appindicators@ubuntu.com', 'hidetopbar@mathieu.bidon.ca', 'simplenetspeed@biji.extension', 'horizontal-workspaces@gnome-shell-extensions.gcampax.github.com', 'windowsNavigator@gnome-shell-extensions.gcampax.github.com', 'hide-activities-button@nmingori.gnome-shell-extensions.org', 'transparent-top-bar@ftpix.com', 'ubuntu-dock@ubuntu.com']
+
+
+sudo add-apt-repository -u ppa:snwh/pp
+
+sudo apt install moka-icon-theme
