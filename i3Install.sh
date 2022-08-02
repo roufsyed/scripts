@@ -2,6 +2,8 @@ sudo apt install i3 -y
 sudo apt install feh -y
 sudo apt install arandr -y
 sudo apt install lxappearance -y
+sudo apt install xclip -y
+sudo apt install maim -y
 
 # touchpad tap configuration for ubuntu x11
 sudo mkdir -p /etc/X11/xorg.conf.d && sudo tee <<'EOF' /etc/X11/xorg.conf.d/90-touchpad.conf 1> /dev/null
