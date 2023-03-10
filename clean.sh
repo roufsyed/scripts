@@ -1,6 +1,6 @@
 echo ''
 echo '***********************************************************'
-echo '*                  Rouf cleanup script                    *'
+echo '*                    cleanup script                       *'
 echo '*                  afrid704@gmail.com                     *'
 echo '***********************************************************'
 echo ''

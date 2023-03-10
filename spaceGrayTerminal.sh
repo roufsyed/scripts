@@ -1,3 +1,10 @@
+echo ''
+echo '***********************************************************'
+echo '*                spaceGray Terminal theme                 *'
+echo '*                  afrid704@gmail.com                     *'
+echo '***********************************************************'
+echo ''
+
 profile_key=$(gsettings get org.gnome.Terminal.ProfilesList default | sed -e "s/'//g" | tr -d "\n")
 gsettings set org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:$profile_key/ visible-name "'Spacegray'"
 gsettings set org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:$profile_key/ background-color "'rgb(17,19,20)'"

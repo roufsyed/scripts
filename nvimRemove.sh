@@ -1,6 +1,6 @@
 echo ''
 echo '***********************************************************'
-echo '*                Rouf nvimremove Script                   *'
+echo '*                   nvimremove Script                     *'
 echo '*                  afrid704@gmail.com                     *'
 echo '***********************************************************'
 echo ''

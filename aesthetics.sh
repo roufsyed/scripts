@@ -1,3 +1,10 @@
+echo ''
+echo '***********************************************************'
+echo '*                   Aesthetics script                     *'
+echo '*                  afrid704@gmail.com                     *'
+echo '***********************************************************'
+echo ''
+
 # Dock Configuraions 
 gsettings set org.gnome.shell.extensions.dash-to-dock background-color '#ffffff'
 gsettings set org.gnome.shell.extensions.dash-to-dock autohide true
@@ -68,19 +75,27 @@ GSETTINGS_SCHEMA=org.gnome.Terminal.Legacy.Keybindings
 GSETTINGS_PATH=/org/gnome/terminal/legacy/keybindings/
 SCHEMA_PATH=$GSETTINGS_SCHEMA:$GSETTINGS_PATH
 gsettings set $SCHEMA_PATH preferences '<ctrl><Shift>p' 
-# Font
-# sudo bash nerdFontInstall.sh
-# Desktop background 
-git clone https://github.com/roufsyed/wallpapers.git ~/Pictures/
-gsettings set org.gnome.desktop.background picture-uri 'file:///home/rouf/Pictures/mac-os-catalina-morning.jpg'
-gsettings set org.gnome.desktop.background picture-options 'zoom'
-#favourite apps
-# ['org.gnome.Nautilus.desktop', 'brave-browser.desktop', 'signal-desktop_signal-desktop.desktop', 'qbittorrent-arnatious_qbittorrent.desktop', 'android-studio_android-studio.desktop', 'ca.desrt.dconf-editor.desktop', 'nvim_nvim.desktop', 'org.gnome.gitg.desktop', 'snap-store_ubuntu-software.desktop']
 
-#enabled-extensions
-# ['ubuntu-appindicators@ubuntu.com', 'hidetopbar@mathieu.bidon.ca', 'simplenetspeed@biji.extension', 'horizontal-workspaces@gnome-shell-extensions.gcampax.github.com', 'windowsNavigator@gnome-shell-extensions.gcampax.github.com', 'hide-activities-button@nmingori.gnome-shell-extensions.org', 'transparent-top-bar@ftpix.com', 'ubuntu-dock@ubuntu.com']
+if : >/dev/tcp/8.8.8.8/53; then
+  echo -e '\e[1;32mSystem online\e[0m'
+  # Font
+  # sudo bash nerdFontInstall.sh
+  # Desktop background 
+  git clone https://github.com/roufsyed/wallpapers.git ~/Pictures/
+  gsettings set org.gnome.desktop.background picture-uri 'file:///home/rouf/Pictures/mac-os-catalina-morning.jpg'
+  gsettings set org.gnome.desktop.background picture-options 'zoom'
+  #favourite apps
+  # ['org.gnome.Nautilus.desktop', 'brave-browser.desktop', 'signal-desktop_signal-desktop.desktop', 'qbittorrent-arnatious_qbittorrent.desktop', 'android-studio_android-studio.desktop', 'ca.desrt.dconf-editor.desktop', 'nvim_nvim.desktop', 'org.gnome.gitg.desktop', 'snap-store_ubuntu-software.desktop']
 
+  #enabled-extensions
+  # ['ubuntu-appindicators@ubuntu.com', 'hidetopbar@mathieu.bidon.ca', 'simplenetspeed@biji.extension', 'horizontal-workspaces@gnome-shell-extensions.gcampax.github.com', 'windowsNavigator@gnome-shell-extensions.gcampax.github.com', 'hide-activities-button@nmingori.gnome-shell-extensions.org', 'transparent-top-bar@ftpix.com', 'ubuntu-dock@ubuntu.com']
+  
+  
+  sudo add-apt-repository -u ppa:snwh/pp
+  
+  sudo apt install moka-icon-theme
+else
+  echo -e '\e[1;31mSystem offline. Exiting.\e[0m'
+  exit
+fi
 
-sudo add-apt-repository -u ppa:snwh/pp
-
-sudo apt install moka-icon-theme
